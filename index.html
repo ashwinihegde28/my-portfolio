@@ -3,326 +3,360 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Software Developer Portfolio</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <script src="./script/action.js" defer></script>
+    <title>Ashwini's Portfolio</title>
   </head>
   <body>
-    <header>
-      <h1>Software Developer Portfolio</h1>
+    <header class="header">
+      <h1>Ashwini's Portfolio</h1>
     </header>
 
-    <main>
-      <section id="about">
-        <h2>About Me</h2>
-        <p>
-          I am a Software Developer with 7 years of full stack JAVA development
-          experience in the fintech industry. I have a strong background in full
-          stack web development, specializing in technologies such as Node.js,
-          React, Ruby, and Data Analytics with Python. My expertise also extends
-          to machine learning (ML), Neural Networks, and Tableau for advanced
-          data analysis and visualization.
-        </p>
-        <p>
-          I am skilled in Requirement Analysis, implementing innovative
-          solutions, creating technical design documentation, conducting
-          thorough unit testing, and managing the deployment activities. I have
-          a track record of successfully delivering high-quality software
-          projects on time and within budget.
-        </p>
-        <p>
-          As a team player, I thrive in collaborative environments where I can
-          contribute my skills and knowledge while learning from others. I am
-          highly motivated and passionate about learning new technologies and
-          staying up-to-date with industry trends. I embrace challenges and
-          continuously strive to improve my technical skills to deliver the best
-          possible solutions.
-        </p>
-        <p>
-          In addition to my technical expertise, I possess excellent
-          communication skills, which enable me to effectively collaborate with
-          cross-functional teams, understand client requirements, and translate
-          them into actionable solutions. I am dedicated, detail-oriented, and
-          have a strong work ethic, ensuring that I consistently deliver
-          outstanding results.
-        </p>
-        <p>
-          I am excited to work on new and challenging projects that push the
-          boundaries of technology, and I am eager to contribute my skills and
-          expertise to create innovative software solutions.
-        </p>
-      </section>
+    <nav class="tabs">
+      <button class="tablink" id="defaultOpen" data-tab="AboutMe">
+        About Me
+      </button>
+      <button class="tablink" data-tab="TechnicalSkills">Technical Skills</button>
+      <button class="tablink" data-tab="Education">Education</button>
+      <button class="tablink" data-tab="Projects">Projects</button>
+      <button class="tablink" data-tab="Volunteering">Volunteering</button>
+      <button class="tablink" data-tab="Experience">Experience</button>
+      <button class="tablink" data-tab="Certificates">Certificates</button>
+      <button class="tablink" data-tab="Hobbies">Hobbies</button>
+      <button class="tablink" data-tab="ContactMe">Contact Me</button>
+    </nav>
 
-      <section id="education">
-        <h2>Education</h2>
+    <div id="AboutMe" class="tabcontent">
+      <h2>About Me</h2>
+      <div class="about-me-content ">
+        <!-- <img src="your-photo.jpg" alt="Your Photo" /> -->
         <ul>
           <li>
-            Diploma, Full Stack Web Development, Lighthouse Labs, May 2023
+            I am a Software Developer with 7 years of full stack JAVA
+            development experience in the fintech industry. I have a strong
+            background in full stack web development, specializing in
+            technologies such as Node.js, React, Ruby, and Data Analytics with
+            Python. My expertise also extends to machine learning (ML), Neural
+            Networks, and Tableau for advanced data analysis and visualization.</br>
           </li>
           <li>
-            Data Analytics (Boot Camp) with Python, Machine learning and deep
-            learning , University of Toronto School of Continuing Studies,
-            August 2022
+            I am skilled in Requirement Analysis, implementing innovative
+            solutions, creating technical design documentation, conducting
+            thorough unit testing, and managing the deployment activities. I
+            have a track record of successfully delivering high-quality software
+            projects on time and within budget.
           </li>
           <li>
-            Bachelor in Information Science and Engineering, Visvesvaraya
-            Technological University (VTU), India, June 2009
+            As a team player, I thrive in collaborative environments where I can
+            contribute my skills and knowledge while learning from others. I am
+            highly motivated and passionate about learning new technologies and
+            staying up-to-date with industry trends. I embrace challenges and
+            continuously strive to improve my technical skills to deliver the
+            best possible solutions.
+          </li>
+          <li>
+            In addition to my technical expertise, I possess excellent
+            communication skills, which enable me to effectively collaborate
+            with cross-functional teams, understand client requirements, and
+            translate them into actionable solutions. I am dedicated,
+            detail-oriented, and have a strong work ethic, ensuring that I
+            consistently deliver outstanding results.
+          </li>
+          <li>
+            I am excited to work on new and challenging projects that push the
+            boundaries of technology, and I am eager to contribute my skills and
+            expertise to create innovative software solutions.
           </li>
         </ul>
-      </section>
+      </div>
+    </div>
 
-      <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-          <li>
-            <strong>Programming Languages:</strong> JAVA, RUBY, Python (Numpy,
-            Pandas, Scikit Learn)
-          </li>
-          <li><strong>Front-End:</strong> React, JavaScript, HTML, CSS</li>
-          <li>
-            <strong>Databases:</strong> MySQL, PostgreSQL, MongoDB, SQLite,
-            Netezza
-          </li>
-          <li>
-            <strong>Frameworks:</strong> JavaServer Faces (JSF), Spring Web
-            flow, Spring Boot, MVC, Hibernate, Flask, ORM, Spring, Rails
-          </li>
-          <li><strong>Operating System:</strong> Windows and Linux</li>
-          <li>
-            <strong>Other Tools and Technologies:</strong> Node.js, Express,
-            Eclipse, Clearcase Client, CVS, Visual basics, Machine learning,
-            Deep Leaning, REST, Microservices, Services, Tableau, AWS,
-            JupyterNotebook, Google collab, VS code, Tomcat server, GIT, JSON,
-            GEOJSON, EJB, RAD, Web Sphere, Selenium, Maven2, log4j, MS-Excel.
-          </li>
-          <li><strong>Methodologies:</strong> Waterfall and Agile/Scrum</li>
-        </ul>
-      </section>
+<div id="TechnicalSkills" class="tabcontent tab-content">
+  <h2>Technical Skills</h2>
+  <ul>
+    <li><strong>Programming Languages:</strong> JAVA, RUBY, PYTHON, R</li>
+    <li><strong>Data Analysis:</strong> Numpy, Pandas, Scikit Learn, BeautifulSoup, Plotly</li>
+    <li><strong>Web Technologies:</strong> JavaScript, JQuery, D3.js, Leaflet</li>
+    <li><strong>Web Development Frameworks:</strong> Node.js, React, Ruby on Rails</li>
+    <li><strong>Database Management:</strong> MySQL, PostgreSQL, MongoDB, SQLite, Netezza, pgAdmin, SQLAlchemy</li>
+    <li><strong>Frameworks:</strong> JavaServer Faces (JSF), Spring Web flow, Spring Boot, MVC, Hibernate, Spring, Flask</li>
+    <li><strong>Operating Systems:</strong> Windows, Linux</li>
+    <li><strong>Development Tools:</strong> Eclipse, Clearcase Client, CVS, Visual basics</li>
+    <li><strong>Machine Learning and Data Science:</strong> Machine learning, Deep Learning, JupyterNotebook, Google collab</li>
+    <li><strong>Web Development:</strong> HTML, CSS</li>
+    <li><strong>Cloud Technologies:</strong> AWS</li>
+    <li><strong>Version Control:</strong> GIT</li>
+    <li><strong>Data Formats:</strong> JSON, GEOJSON</li>
+    <li><strong>Enterprise Technologies:</strong>Enterprise JavaBeans (EJB), RAD, Web Sphere</li>
+    <li><strong>Testing:</strong> Selenium, Maven2, log4j</li>
+    <li><strong>Spreadsheet Tools:</strong> Microsoft Excel</li>
+    <li><strong>Testing Frameworks:</strong> Cyprus, Storybook, Jest, Mocha and Chai</li>
+    <li><strong>Application Servers:</strong> Weblogic, Tomcat</li>
+    <li><strong>Containerization:</strong> Docker, Kubernetes</li>
+    <li><strong>Monitoring and Logging:</strong> Splunk and Datadog</li>
+    <li><strong>Methodologies:</strong> Waterfall, Agile</li>
+  </ul>
+</div>
 
-      <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-          <h3>
-            <a
-              href="https://github.com/ashwinihegde28/hotel_cosmic_reservation_be"
-              >Hotel Reservation System (Server)</a
-            >
-            <a
-              href="https://github.com/ashwinihegde28/hotel_cosmic_reservation_fe"
-              >(Cient) :</a
-            >
-          </h3>
-          <p>
-            Description: This project involves a server built using Node.js,
-            Express, and PostgreSQL, while the client is developed using React.
-            The purpose of the project is to create a reservation system for
-            Hotel Cosmic, offering a unique and immersive outer space experience
-            for its guests.
-          </p>
-          <p>Role: Full Stack Developer</p>
-          <p>Technologies: Node.js, Express, PostgreSQL, React,css</p>
-        </div>
 
-        <div class="project">
-          <h3>
-            <a href="https://github.com/ashwinihegde28/scheduler"
-              >Interview Scheduler :</a
-            >
-          </h3>
-          <p>
-            Description: Interview Scheduler is a user-friendly Single Page
-            Application that allows real-time appointment booking, editing, and
-            deletion. The App is built with React, custom hooks, and a
-            PostgreSQL database for data persistence. The client communicates
-            with the API server over HTTP using JSON format.
-          </p>
-          <p>Role: Full Stack Developer</p>
-          <p>Technologies: React, PostgreSQL</p>
-        </div>
+    <div id="Education" class="tabcontent">
+  <h2>Education</h2>
 
-        <div class="project">
-          <h3>
-            <a href="https://github.com/ashwinihegde28/Smart-TodoList"
-              >Smart-TodoList :</a
-            >
-          </h3>
-          <p>
-            Description: A SMART list categorizes tasks automatically into
-            appropriate categories. Unfitting tasks are placed in an unsorted
-            list. Users can manually categorize tasks as well.It uses Node,
-            HTML, SCSS, Wolfram Alpha API and Postgres database
-          </p>
-          <p>Role: Full Stack Developer</p>
-          <p>
-            Technologies: Node.js, HTML, SCSS, Wolfram Alpha API, PostgreSQL
-          </p>
-        </div>
-        <div class="project">
-          <h3>
-            <a href="https://github.com/ashwinihegde28/tweeterProject"
-              >Tweeter :</a
-            >
-          </h3>
-          <p>
-            Description: Developed a clone of tweeter with desktop/laptop and
-            the smaller device view which is built using responsive design.
-          </p>
-          <p>Role: Full Stack Developer</p>
-          <p>Technologies: Node.js, HTML, Express, css</p>
-        </div>
-        <div class="project">
-          <h3>
-            <a href="https://github.com/ashwinihegde28/Jungle-Project"
-              >Jungle Project :</a
-            >
-          </h3>
-          <p>
-            Description: A mini e-commerce application built with Rails 4.2.
-            Using Stripe to order items and "make payments". Model and Feature
-            testing is done with Rspec. Also using basic http authentication in
-            ruby to secure the "admin" side the site. With successful login
-            admins can create new catagories and products and save them to the
-            database.
-          </p>
-          <p>Role: Full Stack Developer</p>
-          <p>Technologies: Rails 4.2, HTML, PostgreSQL, css, Stripe</p>
-        </div>
-        <div class="project">
-          <h3>
-            <a href="https://github.com/ashwinihegde28/tweeterProject"
-              >Tiny project :</a
-            >
-          </h3>
-          <p>
-            Description: TinyApp is a full stack web application built with Node
-            and Express that allows users to shorten long URLs.
-          </p>
-          <p>Role: Full Stack Developer</p>
-          <p>Technologies: Node.js, Express, EJS, cookie-session</p>
-        </div>
-        <div class="project">
-          <h3>
-            <a href="https://github.com/ashwinihegde28/CustomerSegmentation.git"
-              >Customer Segmentation :</a
-            >
-          </h3>
-          <p>
-            Description: Customer Segmentation: Used Unsupervised Machine
-            Learning to determine groups/classification for types by applying
-            K-means and Agglomerative clustering to determine the pattern of
-            customer purchase which will help to increase the sales and profit
-            of the company.
-          </p>
-          <p>Role: Data Analytics</p>
-          <p>Technologies: Python, Unsupervised Machine, AWS, PostgreSQL</p>
-        </div>
-        <div class="project">
-          <h3>
-            <a href="https://github.com/ashwinihegde28/Cryptocurrencies.git"
-              >Cryptocurrencies :</a
-            >
-          </h3>
-          <p>
-            Description: The purpose of this analysis was to use data from to
-            provide a report and visualization of currently traded
-            cryptocurrencies that can be grouped together to create a new
-            classification system. This report would be used to help
-            Accountability Accounting offer a new investment portfolio in the
-            exciting world of cryptocurrency to its customers.
-          </p>
-          <p>Role: Data Analytics</p>
-          <p>
-            Technologies: Python, Machine Learning - Elbow Curve, PCA,KMeans,
-            hvPlot, Plotly
-          </p>
-        </div>
-        <div class="project">
-          <h3>
-            <a href="https://github.com/ashwinihegde28/Credit_Risk_Analysis.git"
-              >Credit_Risk_Analysis :</a
-            >
-          </h3>
-          <p>
-            Description: The purpose of this analysis is to understand how to
-            utilize supervised Machine Learning statistical algorithms to make
-            predictions based on data patterns provided.
-          </p>
-          <p>Role: Data Analytics</p>
-          <p>
-            Technologies: Python, Supervised Machine Learning - Elbow Curve,
-            PCA,KMeans, hvPlot, Plotly
-          </p>
-        </div>
+  <div class="education">
+    <p><strong>Degree:</strong> Diploma in Full Stack Web Development</p>
+    <p><strong>Institute:</strong> Lighthouse Labs</p>
+    <p><strong>Period:</strong> May 2023</p>
+  </div>
+  <br>
 
-        <div class="project">
-          <h3>
-            <a href="https://github.com/ashwinihegde28/Amazon_Vine_Analysis.git"
-              >Amazon_Vine_Analysis :</a
-            >
-          </h3>
-          <p>
-            Description: Amazon_Vine_Analysis project is to analyze Amazon
-            reviews written by members of the paid Amazon Vine program, a
-            service that allows manufacturers and publishers to receive reviews
-            of their products and determine if there are any biases between Vine
-            members and Non-Vine member's reviews.
-          </p>
-          <p>Role: Data Analytics</p>
-          <p>
-            Technologies: Python, Big Data using PySpark, Amazon Web Service
-            (AWS), Google Colaboratory, and pgAdmin.
-          </p>
-        </div>
+  <div class="education">
+    <p><strong>Degree:</strong> Data Analytics (Boot Camp) with Python, Machine learning and deep learning</p>
+    <p><strong>Institute:</strong> University of Toronto School of Continuing Studies</p>
+    <p><strong>Period:</strong> August 2022</p>
+  </div>
+  <br>
 
-        <div class="project">
-          <h3>
-            <a
-              href="https://github.com/ashwinihegde28/Neural_Network_Charity_Analysis"
-              >Neural_Network_Charity_Analysis :</a
-            >
-          </h3>
-          <p>
-            Description: Neural networks is an advanced form of Machine Learning
-            that can recognize patterns and features in the dataset. This
-            project will utilize Deep Learning Neural Networks to evaluate the
-            input data and produce clear decision making results.
-          </p>
-          <p>Role: Data Analytics</p>
-          <p>Technologies: Python, tensorflow, Deep learning</p>
-        </div>
-      </section>
+  <div class="education">
+    <p><strong>Degree:</strong> Bachelor in Information Science and Engineering</p>
+    <p><strong>Institute:</strong> Visvesvaraya Technological University (VTU), India</p>
+    <p><strong>Period:</strong> June 2009</p>
+  </div>
+</div>
 
-      <section id="experience">
-        <h2>Experience</h2>
-        <div class="job">
-          <h3>FICO, INDIA</h3>
-          <p>Role: JAVA Software Engineer</p>
-          <p>Period: Mar 2014 – Jan 2017</p>
-          <p>
-            Responsibilities: Developed and maintained retail JAVA modules for a
-            marketing solution project, utilizing FICO's DMP and front-end
-            technologies to deliver successful outcomes to end users.
-          </p>
-          <p>
-            Achievements: Received Employee of the Month award for outstanding
-            performance.
-          </p>
-        </div>
-        <div class="job">
-          <h3>Accenture Services Pvt Ltd, INDIA</h3>
-          <p>Role: JAVA Software Engineer</p>
-          <p>Period: Mar 2010 – Jan 2014</p>
-          <p>
-            Responsibilities: Developed and maintained Java web-based
-            applications for various projects, including an insurance web
-            project and banking modules.
-          </p>
-          <p>
-            Achievements: Led the development of a lightweight Java web-based
-            marketing project that received client satisfaction and won
-            Accenture's highest award, "ACE-Accenture Celebrates Excellence."
-          </p>
-        </div>
-      </section>
-    </main>
+
+ <div id="Projects" class="tabcontent">
+  <h2>Projects</h2>
+
+  <div class="project">
+    <h3 style="text-decoration: underline;">
+      Hotel Reservation System (Server and
+      Client):
+    </h3>
+    <p>
+      <strong>Description:</strong> This project involves a server built using Node.js,
+      Express, and PostgreSQL, while the client is developed using React. The
+      purpose of the project is to create a reservation system for Hotel
+      Cosmic, offering a unique and immersive outer space experience for its
+      guests.
+    </p>
+    <p><strong>Role:</strong> Full Stack Developer</p>
+    <p><strong>Technologies:</strong> Node.js, Express, PostgreSQL, React, CSS</p>
+    <p><strong>Link:</strong> <a href="https://github.com/ashwinihegde28/hotel_cosmic_reservation_be">(Server)</a> <a href="https://github.com/ashwinihegde28/hotel_cosmic_reservation_fe">(Client)</a></p>
+  </div>
+</br>
+  <div class="project">
+    <h3 style="text-decoration: underline;">
+      Interview Scheduler :
+    </h3>
+    <p>
+      <strong>Description:</strong> Interview Scheduler is a user-friendly Single Page Application that allows real-time appointment booking, editing, and deletion. The App is built with React, custom hooks, and a PostgreSQL database for data persistence. The client communicates with the API server over HTTP using JSON format.
+    </p>
+    <p><strong>Role:</strong> Full Stack Developer</p>
+    <p><strong>Technologies:</strong> React, PostgreSQL</p>
+    <p><strong>Link:</strong> <a href="https://github.com/ashwinihegde28/scheduler">GitHub</a></p>
+  </div>
+</br>
+  <div class="project">
+    <h3 style="text-decoration: underline;">
+      Smart-TodoList :
+    </h3>
+    <p>
+      <strong>Description:</strong> A SMART list categorizes tasks automatically into appropriate categories. Unfitting tasks are placed in an unsorted list. Users can manually categorize tasks as well. It uses Node, HTML, SCSS, Wolfram Alpha API, and Postgres database.
+    </p>
+    <p><strong>Role:</strong> Full Stack Developer</p>
+    <p><strong>Technologies:</strong> Node.js, HTML, SCSS, Wolfram Alpha API, PostgreSQL</p>
+    <p><strong>Link:</strong> <a href="https://github.com/ashwinihegde28/Smart-TodoList">GitHub</a></p>
+  </div>
+</br>
+  <div class="project">
+    <h3 style="text-decoration: underline;">
+      Tweeter :
+    </h3>
+    <p>
+      <strong>Description:</strong> Developed a clone of tweeter with desktop/laptop and the smaller device view which is built using responsive design.
+    </p>
+    <p><strong>Role:</strong> Full Stack Developer</p>
+    <p><strong>Technologies:</strong> Node.js, HTML, Express, CSS</p>
+    <p><strong>Link:</strong> <a href="https://github.com/ashwinihegde28/tweeterProject">GitHub</a></p>
+  </div>
+</br>
+  <div class="project">
+    <h3 style="text-decoration: underline;">
+      Jungle Project :
+    </h3>
+    <p>
+      <strong>Description:</strong> A mini e-commerce application built with Rails 4.2. Using Stripe to order items and "make payments". Model and Feature testing is done with Rspec. Also using basic http authentication in ruby to secure the "admin" side the site. With successful login admins can create new categories and products and save them to the database.
+    </p>
+    <p><strong>Role:</strong> Full Stack Developer</p>
+    <p><strong>Technologies:</strong> Rails 4.2, HTML, PostgreSQL, CSS, Stripe</p>
+    <p><strong>Link:</strong> <a href="https://github.com/ashwinihegde28/Jungle-Project">GitHub</a></p>
+  </div>
+</br>
+  <div class="project">
+    <h3 style="text-decoration: underline;">
+      Tiny project :
+    </h3>
+    <p>
+      <strong>Description:</strong> TinyApp is a full-stack web application built with Node and Express that allows users to shorten long URLs.
+    </p>
+    <p><strong>Role:</strong> Full Stack Developer</p>
+    <p><strong>Technologies:</strong> Node.js, Express, EJS, cookie-session</p>
+    <p><strong>Link:</strong> <a href="https://github.com/ashwinihegde28/tweeterProject">GitHub</a></p>
+  </div>
+</br>
+  <div class="project">
+    <h3 style="text-decoration: underline;">
+      Customer Segmentation :
+    </h3>
+    <p>
+      <strong>Description:</strong> Customer Segmentation: Used Unsupervised Machine Learning to determine groups/classification for types by applying K-means and Agglomerative clustering to determine the pattern of customer purchase which will help to increase the sales and profit of the company.
+    </p>
+    <p><strong>Role:</strong> Data Analytics</p>
+    <p><strong>Technologies:</strong> Python, Unsupervised Machine, AWS, PostgreSQL</p>
+    <p><strong>Link:</strong> <a href="https://github.com/ashwinihegde28/CustomerSegmentation.git">GitHub</a></p>
+  </div>
+</br>
+  <div class="project">
+    <h3 style="text-decoration: underline;">
+      Cryptocurrencies :
+    </h3>
+    <p>
+      <strong>Description:</strong> The purpose of this analysis was to use data from to provide a report and visualization of currently traded cryptocurrencies that can be grouped together to create a new classification system. This report would be used to help Accountability Accounting offer a new investment portfolio in the exciting world of cryptocurrency to its customers.
+    </p>
+    <p><strong>Role:</strong> Data Analytics</p>
+    <p><strong>Technologies:</strong> Python, Machine Learning - Elbow Curve, PCA, KMeans, hvPlot, Plotly</p>
+    <p><strong>Link:</strong> <a href="https://github.com/ashwinihegde28/Cryptocurrencies.git">GitHub</a></p>
+  </div>
+</br>
+  <div class="project">
+    <h3 style="text-decoration: underline;">
+      Credit_Risk_Analysis :
+    </h3>
+    <p>
+      <strong>Description:</strong> The purpose of this analysis is to understand how to utilize supervised Machine Learning statistical algorithms to make predictions based on data patterns provided.
+    </p>
+    <p><strong>Role:</strong> Data Analytics</p>
+    <p><strong>Technologies:</strong> Python, Supervised Machine Learning - Elbow Curve, PCA, KMeans, hvPlot, Plotly</p>
+    <p><strong>Link:</strong> <a href="https://github.com/ashwinihegde28/Credit_Risk_Analysis.git">GitHub</a></p>
+  </div>
+  </br>
+  <div class="project">
+    <h3 style="text-decoration: underline;">
+      Amazon_Vine_Analysis :
+    </h3>
+    <p>
+      <strong>Description:</strong> Amazon_Vine_Analysis project is to analyze Amazon reviews written by members of the paid Amazon Vine program, a service that allows manufacturers and publishers to receive reviews of their products and determine if there are any biases between Vine members and Non-Vine member's reviews.
+    </p>
+    <p><strong>Role:</strong> Data Analytics</p>
+    <p><strong>Technologies:</strong> Python, Big Data using PySpark, Amazon Web Service (AWS), Google Colaboratory, and pgAdmin.</p>
+    <p><strong>Link:</strong> <a href="https://github.com/ashwinihegde28/Amazon_Vine_Analysis.git">GitHub</a></p>
+  </div>
+</br>
+  <div class="project">
+    <h3 style="text-decoration: underline;">
+      Neural_Network_Charity_Analysis :
+    </h3>
+    <p>
+      <strong>Description:</strong> Neural networks is an advanced form of Machine Learning that can recognize patterns and features in the dataset. This project will utilize Deep Learning Neural Networks to evaluate the input data and produce clear decision-making results.
+    </p>
+    <p><strong>Role:</strong> Data Analytics</p>
+    <p><strong>Technologies:</strong> Python, tensorflow, Deep learning</p>
+    <p><strong>Link:</strong> <a href="https://github.com/ashwinihegde28/Neural_Network_Charity_Analysis">GitHub</a></p>
+  </div>
+</div>
+
+
+<div id="Volunteering" class="tabcontent">
+  <h2>Volunteering</h2>
+    <div class="volunteering">
+    <h3>CHAA - Canada Havyaka Associations of America, Cultural Volunteer, Toronto, Canada</h3>
+    <p>
+      <strong>Description:</strong> As a cultural volunteer, I had the honor of choreographing a dance performance for children under 7 years at CHAA (Canada Havyaka Associations) in April 2023. This endeavor presented its own set of challenges, as most of the practice sessions were conducted online, and participants had varying schedules and lived far from each other.
+
+      Despite these challenges, I embraced the opportunity with enthusiasm and creativity. Through innovative solutions and the dedication of the participants, we successfully brought the dance to life, creating a joyful cultural experience for the children. This experience reinforced my belief in the power of volunteerism to bridge gaps and bring communities together, even in the face of logistical challenges.
+    </p>
+     <p><strong>Period: </strong>April 2023</p>
+  </div>
+  </br>
+  <div class="volunteering">
+    <h3>Steel N Style, Full Stack Software Consultant and Developer, Sirsi, India</h3>
+    <p>
+      <strong>Description:</strong> Worked as a Full Stack Software Consultant and Developer at Steel N Style, a non-profit organization based in Sirsi, India. During my tenure, I played a pivotal role in the organization's technology initiatives. I coded, integrated, and created a flawless payment module that transformed the way Steel N Style handled financial transactions. This module not only streamlined the payment process but also significantly reduced processing times and minimized errors, resulting in substantial cost savings for the organization.
+    
+      My support extended beyond the development phase, as I actively maintained and improved the payment module to ensure its continued effectiveness. This project allowed Steel N Style to allocate more resources towards its core mission of empowering and supporting underprivileged communities. It was a fulfilling experience to contribute my technical expertise to a cause that brings positive change to people's lives.
+    </p>
+    <p><strong>Period: </strong>Oct 2022 - Jan 2023</p>
+  </div>
+</br>
+  <div class="volunteering">
+    <h3>Deaf And Dumb School, Full Stack Associate Software Developer, Sirsi, India</h3>
+        <p>
+      <strong>Description:</strong> Served as a Full Stack Associate Software Developer at the Deaf And Dumb School in Sirsi, India. My primary role was to craft communication and educational software to assist students with hearing and speech impairments. These software solutions were designed to be user-friendly and accessible, enabling students to overcome communication barriers and access educational resources effectively. This volunteer work was driven by the goal of supporting inclusivity and accessibility for students with special needs, and it was carried out with dedication and passion.
+    </p>
+    <p><strong>Period: </strong>Dec 2020 - Feb 2022</p>
+  </div>
+</div>
+
+
+   <div id="Experience" class="tabcontent">
+  <h2>Experience</h2>
+
+  <div class="experience">
+    <h3>FICO, Bengaluru, India</h3>    
+    <p><strong>Project Name:</strong> Loblaws Retail</p>
+    <p><strong>Description:</strong> Developed and maintained retail JAVA modules for a marketing solution project, utilizing FICO's DMP and front-end technologies to deliver successful outcomes to the end user.</p>
+    <p><strong>Achievements:</strong> Received Employee of the Month award for outstanding performance.</p>
+    <p><strong>Period:</strong> Mar 2014 – Jan 2017</p>
+  </div>
+</br></br>
+  <div class="experience">
+    <h3>Accenture Services Pvt Ltd, Bengaluru, India</h3>    
+    <p><strong>Project Name:</strong> AXA WINTHER</p>
+    <p><strong>Description:</strong> Developed and maintained Java web-based applications for Broker Portal, an insurance web project and automated it using Selenium.</p></br>
+    <p><strong>Project Name:</strong> JPMChase</p>
+    <p><strong>Description:</strong> Designed and developed banking modules for Express Deposit Origination as a full-stack Java developer.</p>
+    </br><p><strong>Project Name:</strong> Bank of America (BOFA)</p>
+    <p><strong>Description:</strong> Developed a lightweight Java web-based marketing project with 9 modules, handled Product Build Management and final delivery which led to client satisfaction </p></br>
+    <p><strong>Achievements:</strong> Received Accenture's highest award, "ACE-Accenture Celebrates Excellence."</p>
+    <p><strong>Period:</strong> Mar 2010 – Jan 2014</p>
+  </div>
+</div>
+
+
+   <div id="Certificates" class="tabcontent">
+  <h2>Certificates</h2>
+  <div class="certificate">
+    <p><strong>Certificate:</strong> <span>AWS Cloud Practitioner</span></p>
+    <p><strong>Company:</strong> <span>Amazon Web Services</span></p>
+    <p><strong>Year:</strong> <span>2022</span></p>
+  </div>
+  </br>
+  <div class="certificate">
+    <p><strong>Certificate:</strong> <span>ASDA certified software developer</span></p>
+    <p><strong>Company:</strong> <span>Accenture</span></p>
+    <p><strong>Year:</strong> <span>2011</span></p>
+  </div>
+</div>
+
+    <div id="Hobbies" class="tabcontent">
+  <h2>Hobbies</h2>
+  <ul>
+    <li>Organizing Events</li>
+    <li>Doing Embroidery</li>
+    <li>Cooking</li>
+    <li>Coding</li>
+    <li>Teaching Little Kids</li>
+  </ul>
+</div>
+
+    <div id="ContactMe" class="tabcontent">
+      <h2>Contact Me</h2>
+      <p>You can contact me here 👇</p>
+      <p><strong>LinkedIn : </strong><a>https://www.linkedin.com/in/ashwini-hegde-688138188</a></p>      
+      <p><strong>Email: </strong> ashwinihegde28@gmail.com</p>
+      </br>
+      <p>My work can be found here 👇</p>
+      <p><strong>GitHub : </strong><a>https://github.com/ashwinihegde28?tab=repositories</a></p>
+    </div>
   </body>
 </html>

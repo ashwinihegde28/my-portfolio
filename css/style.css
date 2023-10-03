@@ -1,81 +1,59 @@
-/* Styles for header */
-header {
-  background-color: #f2f2f2;
-  padding: 20px;
-  text-align: center;
-}
-
-/* Styles for section headings */
-h2 {
-  color: #333;
-  font-size: 24px;
-  margin-bottom: 10px;
-  text-align: center;
-  padding-top: 40px;
-}
-
-/* Styles for project div */
-.project {
-  margin-bottom: 20px;
-  border: 1px solid #ccc;
-  padding: 10px;
-}
-
-/* Styles for job div */
-.job {
-  margin-bottom: 20px;
-  border: 1px solid #ccc;
-  padding: 10px;
-}
-
-/* Styles for hyperlinks */
-a {
-  color: blue;
-  text-decoration: none;
-}
-
-a:hover {
-  color: red;
-}
-
-/* Styles for main content area */
-.content {
-  margin-top: 20px;
-}
-
-/* Styles for contact form */
-form {
-  margin-top: 20px;
-}
-
-input[type="text"],
-textarea {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  margin-bottom: 10px;
-}
-
-input[type="submit"] {
+/* Style for the tabs */
+.tabs {
+  display: flex;
+  justify-content: space-between; /* Distribute tabs evenly */
   background-color: #333;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+  overflow: hidden;
+  padding: 0;
 }
 
-input[type="submit"]:hover {
+.tablink {
+  background-color: #ff5733; /* Default background color for all tabs */
+  color: #fff;
+  padding: 15px 20px;
+  flex: 1; /* Make all tabs equal length and distribute space evenly */
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 0; /* Remove rounded corners */
+  transition: background-color 0.3s ease; /* Add a smooth hover effect */
+}
+
+/* Change color on hover */
+.tablink:hover {
   background-color: #555;
 }
 
-.error {
-  color: red;
-  margin-bottom: 10px;
+/* Style for the tab content */
+.tabcontent {
+  display: none;
+  padding: 20px;
+  background-color: #f2f2f2;
+  font-size: 18px; /* Increase font size for all tab content */
+  display: flex;
+  align-items: center;
 }
 
-.success {
-  color: green;
-  margin-bottom: 10px;
+/* Style for the active tab */
+#AboutMe {
+  display: block;
+}
+
+.about-me-content img {
+  max-width: 200px;
+  margin-right: 20px;
+}
+/* .header {
+  background-color: antiquewhite;
+} */
+
+.tabcontent ul li {
+  margin-bottom: 10px; /* Add spacing between list items */
+}
+
+body {
+  background-color: antiquewhite;
 }
